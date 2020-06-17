@@ -15,7 +15,6 @@ body {
     background-color: seagreen;
     width: 100%;
     padding: 15px 15px 40px 15px;
-
     margin-bottom: 20px;
 }
 
@@ -25,20 +24,21 @@ body {
     /* margin-bottom: 20px; */
 }
 
-#header a .sp01 {
+#header a #icon1 {
     float: left;
     text-decoration: none;
 }
 
-#header a .sp02 {
+#header a #icon2 {
     float: right;
+    text-align: right;
     text-decoration: none;
 }
 
-#header a span {
+#header a i {
     color: seashell;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 main #div01 {
