@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: seagreen;
+    width: 100%;
+    padding: 15px 15px 40px 15px;
+
+    margin-bottom: 20px;
+}
+
+#header p {
+    color: seashell;
+    font-size: 36px;
+    /* margin-bottom: 20px; */
+}
+
+#header a .sp01 {
+    float: left;
+    text-decoration: none;
+}
+
+#header a .sp02 {
+    float: right;
+    text-decoration: none;
+}
+
+#header a span {
+    color: seashell;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main #div01 {
+    float: left;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main #div001 {
+    float: left;
+    width: 35%;
+    padding-right: 20px;
+}
+
+main #div001 p.title {
+    margin: 10px 0px;
+    font-size: 36px;
+}
+
+main #div001 p {
+    margin: 10px 0px;
+}
+
+
+/* 테이블 */
+
+main #div01 div.food {
+    margin: 10px 0px;
+}
+
+main #div01 div.food h3 {
+    font-size: 36px;
+    font-weight: normal;
+    /* display: inline; */
+}
+
+
+
+main #div01 div.list1 {
+    font-size: 18px;
+    float: left;
+    width: 30%;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-left: 1px solid rgb(230, 230, 230);
+}
+
+main #div01 div.list2 {
+    font-size: 18px;
+    float: left;
+    width: 70%;
+    border-top: 1px solid rgb(230, 230, 230);
+} 
+
+main #div01 div > p.tk {
+    background-color: rgb(0, 128, 107);
+    padding: 10px 0px;
+    color: white;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+main #div01 div p {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 10px;
+}
+
+main #div01 div p.fs {
+    background-color: rgb(240, 240, 240);
+}
+
+main #div01 div div.list2 P {
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+
